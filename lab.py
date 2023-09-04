@@ -1,11 +1,11 @@
 class Employee:
-    def _init_(self, emp_id, name, age, salary):
+    def __init__(self, emp_id, name, age, salary):
         self.emp_id = emp_id
         self.name = name
         self.age = age
         self.salary = salary
 
-    def _str_(self):
+    def __str__(self):
         return f"{self.emp_id} {self.name} {self.age} {self.salary}"
 
 def sort_employees(employees, key):
@@ -45,5 +45,5 @@ def main():
     except ValueError:
         print("Invalid input. Please enter a valid choice (1/2/3).")
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     main()
