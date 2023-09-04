@@ -20,7 +20,7 @@ def sort_employees(employees, key):
 
 def main():
     employees = [
-        Employee("161E90", "Raman", 41, 56000),
+        Employee("161E90", "Raman", 41, 5600),
         Employee("161F91", "Himadri", 38, 67500),
         Employee("161F99", "Jaya", 51, 82100),
         Employee("171E20", "Tejas", 30, 55000),
